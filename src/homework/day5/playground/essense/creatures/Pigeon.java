@@ -1,0 +1,7 @@
+package homework.day5.playground.essense.creatures;
+
+public class Pigeon extends Vertebrata{
+    public Pigeon(String name) {
+        super(name);
+    }
+}
