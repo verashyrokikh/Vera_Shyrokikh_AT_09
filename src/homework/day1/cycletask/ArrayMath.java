@@ -16,6 +16,7 @@ public class ArrayMath {
             array[i] = i * i;
             System.out.print(array[i] + " ");
         }
+        System.out.println();
     }
 }
 

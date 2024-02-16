@@ -3,7 +3,26 @@
 //-- написать метод, который вернет сумму тех элементов целочисленного массива, которые кратны числу текущего месяца (массив подается в сигнатуру метода)
 //-- написать метод, который "нарисует" в консоли следующий рисунок:
 
-package homework.day2;
+package homework.day4;
 
-public class massivesTask {
+public class MassiveTask {
+
+    public void massiveCount(int[] array, int n) {
+        int sum = 0;
+        for (int i = n - 1; i < array.length; i++) {
+            if (i % n == 0) {
+                sum += array[i - 1];
+            }
+        }
+        System.out.println(sum);
+    }
+
+    public void printCow() {
+        System.out.println(" ^__^           ");
+        System.out.println(" (oo)\\\\_______");
+        System.out.println("(__)\\ ) \\/\\ \\ ");
+        System.out.println("   ||````W |\\  ");
+        System.out.println("   ||    ||    ");
+
+    }
 }

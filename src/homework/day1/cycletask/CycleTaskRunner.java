@@ -20,5 +20,7 @@ public class CycleTaskRunner {
 
         ArraySorting arraySorting = new ArraySorting();
         arraySorting.changeArrayValues();
+        arraySorting.findMin();
+       //arraySorting.reverseSorting();
     }
 }
