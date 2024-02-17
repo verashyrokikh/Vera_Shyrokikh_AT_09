@@ -7,4 +7,9 @@ public class Plane extends Aircraft implements Flyable, Transportable {
     public Plane(int mass, String name) {
         super(mass, name);
     }
+
+    @Override
+    public void fly(String direction) {
+        System.out.printf("I am %s, my name is %s and I amd flying to %s.\n", getClass().getName(), this.getName(), direction);
+    }
 }

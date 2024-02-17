@@ -12,8 +12,8 @@ public class CycleTaskRunner {
         RandomIntoArray randomIntoArray = new RandomIntoArray();
         randomIntoArray.randomArray();
 
-        PrintArrayMethod printArrayMethod = new PrintArrayMethod();
-        printArrayMethod.printArray(new int[]{3, 4, 5, 6, 72, 5, 5, 7, 1});
+        //PrintArrayMethod printArrayMethod = new PrintArrayMethod();
+       // printArrayMethod.printArray(new int[]{3, 4, 5, 6, 72, 5, 5, 7, 1});
 
         ArrayMath arrayMath = new ArrayMath();
         arrayMath.arrayMath();
