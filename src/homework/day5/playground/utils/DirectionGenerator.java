@@ -8,7 +8,7 @@ public class DirectionGenerator {
         Random random = new Random();
 
         String direction;
-        int num = random.nextInt(39);
+        int num = random.nextInt(40);
 
         if (num < 10) {
             direction = "NORTH";
