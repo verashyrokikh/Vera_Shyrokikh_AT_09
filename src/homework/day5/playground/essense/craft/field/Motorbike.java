@@ -7,4 +7,5 @@ public class Motorbike extends Vehicle implements Transportable, Rideable {
     public Motorbike(int mass, String name) {
         super(mass, name);
     }
+
 }

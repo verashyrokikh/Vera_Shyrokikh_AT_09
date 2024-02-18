@@ -12,4 +12,5 @@ public class Plane extends Aircraft implements Flyable, Transportable {
     public void fly(String direction) {
         System.out.printf("I am %s, my name is %s and I amd flying to %s.\n", getClass().getSimpleName(), this.getName(), direction);
     }
+
 }
