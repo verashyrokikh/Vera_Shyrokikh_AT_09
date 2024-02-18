@@ -1,4 +1,4 @@
-package homework.day5.playground.essense.creatures;
+package homework.day6.playground.essense.creatures.playground.essense.creatures;
 
 public class Crocodile extends Vertebrata implements Crawlable {
 
