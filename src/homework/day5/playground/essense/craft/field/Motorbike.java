@@ -8,4 +8,5 @@ public class Motorbike extends Vehicle implements Transportable, Rideable {
         super(mass, name);
     }
 
+
 }

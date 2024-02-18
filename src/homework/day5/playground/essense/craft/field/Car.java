@@ -8,4 +8,6 @@ public class Car extends Vehicle implements Transportable, Rideable {
         super(mass, name);
     }
 
-}
+
+
+    }
