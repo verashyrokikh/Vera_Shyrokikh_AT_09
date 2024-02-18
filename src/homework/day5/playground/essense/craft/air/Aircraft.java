@@ -1,8 +1,10 @@
 package homework.day5.playground.essense.craft.air;
 
+import homework.day5.playground.essense.Flyable;
 import homework.day5.playground.essense.Matter;
+import homework.day5.playground.essense.craft.Transportable;
 
-public abstract class Aircraft extends Matter {
+public abstract class Aircraft extends Matter implements Flyable, Transportable {
     protected String name;
 
     public Aircraft(int mass, String name) {
@@ -16,5 +18,11 @@ public abstract class Aircraft extends Matter {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int move(int pointA, int pointB) {
+        int distance = pointB - pointA;
+        System.out.printf("I am %s, my name is %s and I am moving from %s to %s.\n", this.getClass().getSimpleName(), this.getName(), pointA, pointB);
+        return distance;
     }
 }
