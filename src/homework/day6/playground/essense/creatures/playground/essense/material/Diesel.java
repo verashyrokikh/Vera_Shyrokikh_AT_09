@@ -1,4 +1,15 @@
 package homework.day6.playground.essense.creatures.playground.essense.material;
 
-public class Diesel implements Pourable, Powerable {
+import homework.day6.playground.essense.creatures.playground.essense.Matter;
+
+public class Diesel extends Matter implements Pourable, Powerable {
+    public Diesel(int mass) {
+        super(mass);
+    }
+
+    @Override
+    public void spread(String storeName) {
+        System.out.printf("I am %s and I am spreading in %s.\n", getClass().getSimpleName(), storeName);
+        System.out.println("whooh..");
+    }
 }
