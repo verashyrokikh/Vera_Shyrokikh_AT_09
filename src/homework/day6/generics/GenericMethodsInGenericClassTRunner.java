@@ -1,19 +1,18 @@
 package homework.day6.generics;
 
-import homework.day1.basetask.Bee;
-import homework.day6.playground.essense.creatures.playground.essense.craft.air.Copter;
-import homework.day6.playground.essense.creatures.playground.essense.craft.air.Plane;
-import homework.day6.playground.essense.creatures.playground.essense.craft.air.Rocket;
-import homework.day6.playground.essense.creatures.playground.essense.craft.field.Car;
-import homework.day6.playground.essense.creatures.playground.essense.craft.field.Moped;
-import homework.day6.playground.essense.creatures.playground.essense.craft.field.Motorbike;
-import homework.day6.playground.essense.creatures.playground.essense.craft.hand.Bottle;
-import homework.day6.playground.essense.creatures.playground.essense.craft.hand.Can;
-import homework.day6.playground.essense.creatures.playground.essense.craft.hand.Mug;
-import homework.day6.playground.essense.creatures.playground.essense.creatures.*;
-import homework.day6.playground.essense.creatures.playground.essense.material.Diesel;
-import homework.day6.playground.essense.creatures.playground.essense.material.Petrol;
-import homework.day6.playground.essense.creatures.playground.essense.material.Water;
+import homework.day6.playground.essense.craft.air.Copter;
+import homework.day6.playground.essense.craft.air.Plane;
+import homework.day6.playground.essense.craft.air.Rocket;
+import homework.day6.playground.essense.craft.field.Car;
+import homework.day6.playground.essense.craft.field.Moped;
+import homework.day6.playground.essense.craft.field.Motorbike;
+import homework.day6.playground.essense.craft.hand.Bottle;
+import homework.day6.playground.essense.craft.hand.Can;
+import homework.day6.playground.essense.craft.hand.Mug;
+import homework.day6.playground.essense.creatures.*;
+import homework.day6.playground.essense.material.Diesel;
+import homework.day6.playground.essense.material.Petrol;
+import homework.day6.playground.essense.material.Water;
 
 public class GenericMethodsInGenericClassTRunner {
     public static void main(String[] args) {
@@ -48,6 +47,7 @@ public class GenericMethodsInGenericClassTRunner {
 
         newString.genericMethodOneGenArg("Hi");
         newString.genericMethodTwoGenArgs("Yes", "No");
+        System.out.println(newString.genericMethodTwoGenArgs("Yes", "No"));
         newString.genericMethodHalfGenArgs("Hello", "text");
 
         newInteger.genericMethodOneGenArg(35);
