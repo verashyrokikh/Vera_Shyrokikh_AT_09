@@ -1,4 +1,4 @@
-package homework.day5.playground.utils;
+package homework.day6.playground.utils;
 
 import java.util.Random;
 

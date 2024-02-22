@@ -1,6 +1,6 @@
-package homework.day5.playground.essense.creatures;
+package homework.day6.playground.essense.creatures;
 
-public class Beetle extends Insect implements Crawlable{
+public class Beetle extends Insect implements Crawlable {
 
     public Beetle(int mass, String name) {
         super(mass, name);
