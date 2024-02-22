@@ -4,12 +4,12 @@ public class GenericMethodsInGenericClassTwoParams<X, Y> {
 
     public String genericMethodGenArgs(X someArgs) {
         System.out.printf("I received 1 argument of type: %s class.\n ", someArgs.getClass().getSimpleName());
-        return "I received 1 argument of type: %s class. " + someArgs.getClass().getSimpleName();
+        return "I received 1 argument of type: " + someArgs.getClass().getSimpleName() + " class.";
     }
 
     public String genericMethodGenArgs(X someArgs, Y someArgs2) {
         System.out.printf("I received 2 arguments of type: %s class, %s class.\n", someArgs.getClass().getSimpleName(), someArgs2.getClass().getSimpleName());
-        return "I received 2 arguments of type: %s class %s class." + someArgs.getClass().getSimpleName() + " , " + someArgs2.getClass().getSimpleName();
+        return "I received 2 arguments of type: " + someArgs.getClass().getSimpleName() + " class, " + someArgs2.getClass().getSimpleName() + " class";
     }
 
     public void genericMethodHalfGenArgs(X someArgs3) {
