@@ -7,33 +7,34 @@
 //
 //есть приватный метод void isOpened(), который пока ничего не делает
 
-//package project;
-//
-//public class SparklingWater extends Water {
-//    private boolean isOpened;
-//    private Bubble[] bubbles;
-//
-//    public SparklingWater(String color, String transparency, String smell, int temperature, boolean isOpened) {
-//        super(color, transparency, smell, temperature);
-//        this.isOpened = isOpened;
-//        isOpened();
-//    }
-//
-//    public void pump(Bubble[] bubbles) {
-//        this.bubbles=bubbles;
-//        for (int i = 0; i < bubbles.length ; i++) {
-//            bubbles[i]=new Bubble("CO2");
-//        }
-//            this.bubbles = bubbles;
-//        }
-//        System.out.println("Put bubbles into water");
-//    }
-//    public void setOpened() {
-//        isOpened=true;
-//        //каждую секунду выпускает по партии пузырьков из рассчета 10 + 5 * температура_воды
-//        private void degas(){
-//
-//        }
-//    }
-//    private void isOpened();
-//}
+package project;
+
+public class SparklingWater extends Water {
+    private static boolean isOpened;
+    private Bubble[] bubbles;
+
+    public SparklingWater(String color, String transparency, String smell, int temperature, boolean isOpened) {
+        super(color, transparency, smell, temperature);
+        this.isOpened = isOpened;
+    }
+
+    public void pump(Bubble[] bubbles) {
+        this.bubbles = bubbles;
+        for (int i = 0; i < bubbles.length; i++) {
+          //  bubbles[i] = new Bubble;
+        }
+        this.bubbles = bubbles;
+    }
+
+
+    public void setOpened() {
+        SparklingWater.isOpened = true;
+        //каждую секунду выпускает по партии пузырьков из рассчета 10 + 5 * температура_воды
+       // private void degas() {
+
+      //  }
+    }
+
+    private void isOpened(){};
+
+}

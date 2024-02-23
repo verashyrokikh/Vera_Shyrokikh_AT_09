@@ -9,15 +9,13 @@ public class Bubble {
     private double volume = 0.3;
     private String gas;
 
-        public Bubble(String gas) {
-        this.gas = gas;
+    public Bubble(String gas) {
+        this.gas="CO2";
     }
-
     public void cramp() {
         System.out.println("Cramp!");
     }
-
     public double getVolume() {
-        return volume;
+        return this.volume;
     }
 }

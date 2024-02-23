@@ -4,8 +4,8 @@
 package project;
 
 public class Water {
-    private String color ="no";
-    private String transparency ="transparent";
+    private String color = "no";
+    private String transparency = "transparent";
     private String smell = "no";
     int temperature;
 
