@@ -37,7 +37,7 @@ public class Bottle {
 
     public void setBubbles() {
 
-        int[] Bubbles = new int[];
+      //  int[] Bubbles = new int[];
 
         if (volume==1){
 
